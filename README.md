@@ -258,7 +258,7 @@ void printStates() {
 
 ## 📤 Program Output Example
 
-```cpp
+```
 bit_based_state_control Example
 
 Set state at index 3
