@@ -7,7 +7,7 @@ void setup() {
     while (!Serial) {
         ; 
     }
-    Serial.println(F("bit-based_state_control Example"));
+    Serial.println(F("bit_based_state_control Example"));
 
     Serial.println(F("\nSet state at index 3"));
     states.setState(3);
