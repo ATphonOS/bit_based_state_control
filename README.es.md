@@ -247,7 +247,42 @@ void printStates() {
 
 ## 📤 Ejemplo de salida del programa
 
-![bb1](https://github.com/user-attachments/assets/7044d699-7895-49cd-9af0-1f3da34c1f96)
+```
+bit_based_state_control Example
+
+Set state at index 3
+States: 0001000000
+First True Index: 3
+True Count: 1
+
+Toggle state at index 3
+States: 0000000000
+First True Index: - unassigned
+True Count: 0
+
+Set a range of states (2-5 true)
+States: 0011110000
+First True Index: 2
+True Count: 4
+
+Save last states and modify state 7
+States: 0000000100
+First True Index: 7
+True Count: 1
+
+Restore saved state before modification
+States: 0011110000
+First True Index: 2
+True Count: 4
+
+Invert states
+States: 1100001111
+First True Index: 0
+True Count: 6
+
+Get all true indices
+True indices (count=6): 0 1 6 7 8 9
+```
 
 ---
 
