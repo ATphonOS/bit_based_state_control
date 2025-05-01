@@ -4,6 +4,7 @@ This documentation is also available in **[Spanish](./README.es.md)**.
 # 🔀 bit_based_state_control
 ## Overview
 `BBStateControl` is a lightweight and memory-efficient C++ class designed to manage multiple boolean states using a bitfield. It's optimized for microcontroller environments and supports up to **254 independent states** with efficient memory usage.
+Designed as a library for use in Arduino environments.
 
 ---
 
