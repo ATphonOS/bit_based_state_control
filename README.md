@@ -13,7 +13,7 @@ Designed as a library for use in Arduino environments.
 - Bitfield-based boolean state storage.
 - Supports up to 254 individual states. 
 
-> `uint8_t` allows values from 0 to 255, the maximum number of states is set to **254** to avoid potential issues with array indexing and bitfield storage. The index range goes from `0` to `253`, ensuring safe memory management and preventing overflow or ambiguity with the value `255`. `uint8_t` is optimal on Arduino Uno (2 KB RAM) for low memory use and fast execution.
+> `uint8_t` allows values from 0 to 255, the maximum number of states is set to **254** to avoid potential issues with array indexing and bitfield storage. The index range goes from `0` to `253`, ensuring safe memory management and preventing overflow. `uint8_t` is optimal on Arduino Uno (2 KB RAM) for low memory use and fast execution.
 
 - Set, toggle, reset, and query state values.
 - Exclusive state activation (one-hot control).
