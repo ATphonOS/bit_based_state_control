@@ -11,7 +11,7 @@ Esta documentación también está disponible en **[Inglés](./README.md)**.
 - Almacenamiento de estados booleanos basado en campos de bits.
 - Soporta hasta 254 estados individuales.
 
-> `uint8_t` permite valores de 0 a 255, pero el número máximo de estados se establece en **254** para evitar problemas potenciales con la indexación de arreglos y el almacenamiento de campos de bits. El rango de índices va de `0` a `253`, garantizando una gestión segura de la memoria y evitando desbordamientos o ambigüedades con el valor `255`. `uint8_t` es óptimo en Arduino Uno (2 KB de RAM) para un bajo consumo de memoria y una ejecución rápida.
+> `uint8_t` permite valores de 0 a 255, pero el número máximo de estados se establece en **254** para evitar problemas potenciales con la indexación de arreglos y el almacenamiento de campos de bits. El rango de índices va de `0` a `253`, garantizando una gestión segura de la memoria y evitando desbordamientos. `uint8_t` es óptimo en Arduino Uno (2 KB de RAM) para un bajo consumo de memoria y una ejecución rápida.
 
 - Configuración, alternancia, reinicio y consulta de valores de estado.
 - Activación exclusiva de estados (control one-hot).
