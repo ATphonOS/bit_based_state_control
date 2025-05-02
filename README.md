@@ -307,4 +307,4 @@ True indices (count=6): 0 1 6 7 8 9
 ---
 
 ## 🧾 License
-This project is licensed under the MIT License — see the [LICENSE](https://github.com/ATphonOS/bit_based-state-control/blob/main/LICENSE.md) file for details.
+This project is licensed under the MIT License — see the [LICENSE](https://github.com/ATphonOS/bit_based_state_control/blob/main/LICENSE.md) file for details.
