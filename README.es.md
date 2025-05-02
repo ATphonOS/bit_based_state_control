@@ -122,8 +122,8 @@ void serializeStates(char* buffer, uint8_t bufSize) const;
 uint8_t serializeStatesSize() const;
 ```
 
-| Method | Description | Parameters | Returns |
-|--------|-------------|------------|---------|
+| Método | Descripción | Parámetros | Devuelve|
+|--------|-------------|------------|----------|
 | `void serializeStates(char* buffer, uint8_t bufSize) const` | Serializa los estados actuales en una cadena de `'0'` y `'1'`, almacenada en el búfer proporcionado. | buffer (char*): búfer para almacenar la cadena serializada<br>bufSize (uint8_t): tamaño del búfer  |
 | `uint8_t serializeStatesSize() const` | Calcula el tamaño del búfer necesario para serializar todos los estados (incluyendo el terminador nulo). | Ninguno | `uint8_t`: número de carácteres requeridos |
 
@@ -134,8 +134,8 @@ void saveState();
 void restoreSavedState();
 ```
 
-| Method | Description | Parameters | Returns |
-|--------|-------------|------------|---------|
+| Método | Description | Parameters | Devuelve |
+|--------|-------------|------------|----------|
 | `void saveState()` | Guarda el estado actual y el índice activo para su posterior restauración. | Ninguno | `void` |
 | `void restoreSavedState()` | Restaura el estado e índice activo previamente guardados. | Ninguno | `void` |
 
@@ -296,4 +296,4 @@ True indices (count=6): 0 1 6 7 8 9
 ---
 
 ## 🧾 Licencia
-Este proyecto está licenciado bajo la licencia MIT. Consulte el archivo [LICENCIA](https://github.com/ATphonOS/bit-based-state-control/blob/main/LICENSE.md) para obtener más información.
+Este proyecto está licenciado bajo la licencia MIT. Consulte el archivo [LICENCIA](https://github.com/ATphonOS/bit_based_state_control/blob/main/LICENSE.md) para obtener más información.
