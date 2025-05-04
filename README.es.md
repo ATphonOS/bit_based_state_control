@@ -160,12 +160,12 @@ bool getBit(uint8_t index) const;
 ### 🔐 Miembros internos
 
 ```cpp
-uint8_t def_size;         // Total number of states.
-uint8_t byte_size;        // Number of bytes used for storage.
-uint8_t* array;           // Bitfield array for current states.
-uint8_t* savedState;      // Saved state array.
-int8_t trueIndex;         // Index of the first true state.
-int8_t savedTrueIndex;    // Saved trueIndex.
+uint8_t def_size;         // Número total de estados.
+uint8_t byte_size;        // Número de bytes utilizados para el almacenamiento.
+uint8_t* array;           // Matriz de campos de bits para estados actuales.
+uint8_t* savedState;      // Matriz de estado guardada.
+int8_t trueIndex;         // Índice del primer estado verdadero.
+int8_t savedTrueIndex;    // Guardado trueIndex.
 ```
 
 ---
